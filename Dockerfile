@@ -123,6 +123,7 @@ RUN \
     certbot-dns-vultr \
     certbot-plugin-gandi \
     cryptography \
+    git+https://github.com/tengattack/certbot-dns-dnspod.git \
     requests && \
   echo "**** remove unnecessary fail2ban filters ****" && \
   rm \
